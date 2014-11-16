@@ -28,6 +28,9 @@
         foreach ($advert as $row) {
             ?>
             <tr>
+                <td><?php echo "<img class='ad-logo' src='../public_html/assets/images/$row->logo'>"?></td>
+            </tr>
+            <tr>
              <td>Job Title:</td>   <td><?php echo $row->title; ?></td>
             </tr>
             <tr>
@@ -39,6 +42,7 @@
             <tr>
                <td>Salary:</td> <td><?php echo $row->salary; ?></td>
             </tr>
+
         <?php
         }
     } ?>
