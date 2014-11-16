@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Welcome</title>
     <link rel="stylesheet" href="../public_html/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public_html/assets/css/app.css">
     <script src="../public_html/assets/js/bootstrap.min.js"></script>
 
 </head>
@@ -21,8 +22,28 @@
       </center>
     </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lectus id dolor eleifend condimentum. Sed tellus enim, lobortis id ultrices sed, euismod ut velit. Proin bibendum dolor non luctus feugiat. Aenean tristique quis risus at auctor. Morbi tristique faucibus tellus ut finibus. Aliquam in eleifend est. Donec nec massa eu massa pulvinar ullamcorper.</p>
-    <p>Aenean purus lorem, auctor a mi vitae, porttitor pulvinar quam. Proin aliquet id lectus mattis ultrices. Pellentesque cursus imperdiet est sit amet iaculis. Integer sit amet ultricies libero, sit amet fringilla metus. Nunc pellentesque quis tellus eget tincidunt. Praesent augue felis, fringilla at aliquam sit amet, dictum eu neque. Sed laoreet nisi vitae nisl fringilla, eu cursus nulla tristique. Curabitur hendrerit ac magna nec facilisis. Etiam nec tristique augue, condimentum scelerisque urna. Aliquam erat volutpat.</p>
+    <table class="standard_ad_tbl">
+    <tbody>
+    <?php if (is_array($advert)) {
+        foreach ($advert as $row) {
+            ?>
+            <tr>
+             <td>Job Title:</td>   <td><?php echo $row->title; ?></td>
+            </tr>
+            <tr>
+             <td>Company:</td>   <td><?php echo $row->company; ?></td>
+            </tr>
+            <tr>
+                <td>Job Details:</td>  <td><?php echo $row->description; ?></td>
+            </tr>
+            <tr>
+               <td>Salary:</td> <td><?php echo $row->salary; ?></td>
+            </tr>
+        <?php
+        }
+    } ?>
+    </tbody>
+    </table>
 
 
 </div>

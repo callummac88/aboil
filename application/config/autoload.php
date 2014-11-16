@@ -98,6 +98,22 @@ $autoload['config'] = array();
 
 $autoload['language'] = array();
 
+/*
+| -------------------------------------------------------------------
+|  Auto-load Libraries
+| -------------------------------------------------------------------
+| These are the classes located in the system/libraries folder
+| or in your application/libraries folder.
+|
+| Prototype:
+|
+|	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
+*/
+
+$autoload['libraries'] = array('database');
+
+
+
 
 /*
 | -------------------------------------------------------------------
