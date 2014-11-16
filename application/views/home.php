@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome</title>
-    <link rel="stylesheet" href="../public_html/assets/css/bootstrap.min.css ">
-
+    <link rel="stylesheet" href="../public_html/assets/css/bootstrap.min.css">
+    <script src="../public_html/assets/js/bootstrap.min.js"></script>
 
 </head>
 <body>
