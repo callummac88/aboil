@@ -25,26 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3035413" vertical-offset="225" max-vertical-offset="930">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state vertical-scroll-proportion="-21.25" vertical-offset="255" max-vertical-offset="990">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding>
-                <marker date="1416160870000" expanded="true" signature="919:1008" placeholder="..." />
-                <marker date="1416160870000" expanded="true" signature="1025:1114" placeholder="..." />
-                <marker date="1416160870000" expanded="true" signature="1131:1230" placeholder="..." />
-                <marker date="1416160870000" expanded="true" signature="1247:1334" placeholder="..." />
+                <marker date="1416219532000" expanded="true" signature="978:1067" placeholder="..." />
+                <marker date="1416219532000" expanded="true" signature="1084:1173" placeholder="..." />
+                <marker date="1416219532000" expanded="true" signature="1190:1289" placeholder="..." />
+                <marker date="1416219532000" expanded="true" signature="1306:1393" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.17017828" vertical-offset="0" max-vertical-offset="617">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,8 +99,8 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/models/home_model.php" />
-        <option value="$PROJECT_DIR$/public_html/assets/css/app.css" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/public_html/assets/css/app.css" />
       </list>
     </option>
   </component>
@@ -429,24 +429,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/assets/css/app.css">
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="-21.25" vertical-offset="255" max-vertical-offset="990">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding>
+            <marker date="1416219532000" expanded="true" signature="978:1067" placeholder="..." />
+            <marker date="1416219532000" expanded="true" signature="1084:1173" placeholder="..." />
+            <marker date="1416219532000" expanded="true" signature="1190:1289" placeholder="..." />
+            <marker date="1416219532000" expanded="true" signature="1306:1393" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home.php">
+    <entry file="file://$PROJECT_DIR$/public_html/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3035413" vertical-offset="225" max-vertical-offset="930">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <marker date="1416160870000" expanded="true" signature="919:1008" placeholder="..." />
-            <marker date="1416160870000" expanded="true" signature="1025:1114" placeholder="..." />
-            <marker date="1416160870000" expanded="true" signature="1131:1230" placeholder="..." />
-            <marker date="1416160870000" expanded="true" signature="1247:1334" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.17017828" vertical-offset="0" max-vertical-offset="617">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

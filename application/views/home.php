@@ -22,6 +22,9 @@
       </center>
     </div>
 
+    <div class="col-md-12">
+
+       <div class="col-md-6">
     <table class="standard_ad_tbl">
     <tbody>
     <?php if (is_array($advert)) {
@@ -48,8 +51,9 @@
     } ?>
     </tbody>
     </table>
+       </div>
 
-
+    </div>
 </div>
 
 
