@@ -3,6 +3,21 @@
 }
 .ad-logo {
     height:30px;
-    margin-top:20px;
-    margin-bottom:5px;
+    margin-bottom:10px;
+}
+.home-adverts {
+    border:solid 3px silver;
+    border-radius: 7px;
+    padding:10px;
+    margin-bottom:10px;
+}
+.home-a:hover {
+    text-decoration: none!important;
+    color:black;
+}
+.home-a {
+    color:black;
+}
+.apply-btn {
+    margin:10px;
 }

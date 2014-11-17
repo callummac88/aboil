@@ -25,19 +25,19 @@
     <div class="col-md-12">
 
        <div class="col-md-6">
+           <?php if (is_array($advert1)) {
+           foreach ($advert1 as $row) {
+           ?>
+               <div class="home-adverts">
     <table class="standard_ad_tbl">
     <tbody>
-    <?php if (is_array($advert)) {
-        foreach ($advert as $row) {
-            ?>
+
+            <?php echo "<img class='ad-logo' src='../public_html/assets/images/$row->logo'>"?>
             <tr>
-                <td><?php echo "<img class='ad-logo' src='../public_html/assets/images/$row->logo'>"?></td>
+                <td>Job Title:</td>   <td><?php echo $row->title; ?></td>
             </tr>
             <tr>
-             <td>Job Title:</td>   <td><?php echo $row->title; ?></td>
-            </tr>
-            <tr>
-             <td>Company:</td>   <td><?php echo $row->company; ?></td>
+                <td>Company:</td>   <td><?php echo $row->company; ?></td>
             </tr>
             <tr>
                 <td>Job Details:</td>  <td><?php echo $row->description; ?></td>
@@ -46,12 +46,49 @@
                <td>Salary:</td> <td><?php echo $row->salary; ?></td>
             </tr>
 
-        <?php
-        }
-    } ?>
+
     </tbody>
     </table>
+                   <a class="home-a" href="http://local-www.aberdeenoil.careers/<?php echo $row->id;?>"><button class="btn btn-success apply-btn">Apply Now</button></a>
+          </div>
+
+       <?php
+       }
+       } ?>
        </div>
+
+        <div class="col-md-6">
+            <?php if (is_array($advert2)) {
+            foreach ($advert2 as $row) {
+            ?>
+
+            <div class="home-adverts">
+            <table class="standard_ad_tbl">
+                <tbody>
+                        <?php echo "<img class='ad-logo' src='../public_html/assets/images/$row->logo'>"?>
+                        <tr>
+                            <td>Job Title:</td>   <td><?php echo $row->title; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>   <td><?php echo $row->company; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Job Details:</td>  <td><?php echo $row->description; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Salary:</td> <td><?php echo $row->salary; ?></td>
+                        </tr>
+
+
+                </tbody>
+            </table>
+                <a class="home-a" href="http://local-www.aberdeenoil.careers/<?php echo $row->id;?>"><button class="btn btn-success apply-btn">Apply Now</button></a>
+                </div>
+            <?php
+            }
+            } ?>
+        </div>
+
 
     </div>
 </div>

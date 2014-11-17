@@ -17,9 +17,9 @@
 class Home_model extends CI_Model
 
 {
-    public function getAdvert() {
+    public function getAdvert($id) {
 
-        return $this->db->query(sprintf('SELECT title, company, description, salary, logo from adverts'))->result();
+        return $this->db->query(sprintf('SELECT title, company, description, salary, logo, id from adverts WHERE id ='.$id))->result();
     }
 
 }
