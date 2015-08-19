@@ -5,9 +5,10 @@ class Home extends CI_Controller {
 
 	public function index()
     {
+    	$this->load->helper('url');
         $this->load->model('home_model','model');
-        $data['advert1']  = $this->model->getAdvert(1);
-        $data['advert2']  = $this->model->getAdvert(2);
+        $data['advert']  = $this->model->getAdvert();
+        
         $this->load->view('home', $data);
 
     }

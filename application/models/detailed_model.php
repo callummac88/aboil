@@ -14,12 +14,12 @@
  * @license    Commercial Intellectual Property.
  * @see        https://github.com/...
  */
-class Home_model extends CI_Model
+class Detailed_model extends CI_Model
 
 {
-    public function getAdvert() {
+    public function getDetails($adId) {
 
-        return $this->db->query(sprintf('SELECT title, company, description, salary, logo, id from adverts'))->result();
+        return $this->db->query(sprintf('SELECT title, company, description, salary, logo, id from adverts WHERE id = "%s"' , $adId))->result();
     }
 
 }
